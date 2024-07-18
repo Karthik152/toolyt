@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your confirmation code is below — enter it  and we'll help you get signed in."
+                android:textSize="18dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/closebtn"
+                android:src="@drawable/baseline_close_24"
+                android:layout_height="30dp">
+            </ImageView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5sp"
+            android:background="@color/cardview_dark_background">
+
+        </View>
+
+        <TextView
+            android:id="@+id/Showotp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="otp"
+            android:textColor="@android:color/black"
+            android:textSize="26dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+        </TextView>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <EditText
+                android:id="@+id/otp1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:maxLength="1"
+                android:layout_weight="1"
+                android:background="@drawable/flag_transparent"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="-"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/otp2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:maxLength="1"
+                android:layout_weight="1"
+                android:background="@drawable/flag_transparent"
+
+                android:hint="-"
+                android:gravity="center"
+                android:inputType="number"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/otp3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:maxLength="1"
+                android:hint="-"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/flag_transparent"
+
+                android:inputType="number"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/otp4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:maxLength="1"
+                android:hint="-"
+                android:layout_weight="1"
+                android:background="@drawable/flag_transparent"
+
+                android:gravity="center"
+                android:inputType="number"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/submitbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="OK"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
