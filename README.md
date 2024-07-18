@@ -1,2 +1,2 @@
-[Splashscreen](screenshots/Splashscreen.jpg)
+[Splashscreen](screenshot/Splashscreen.JPG)
 
