@@ -1,17 +1,17 @@
-![Splashscreen](screenshots/Splashscreen.jpg)
+![Splashscreen](screenshot/Splashscreen.jpg)
 *This is the splash screen of our application.*
 
-![Startup](screenshots/Startup.jpg)
+![Startup](screenshot/Startup.jpg)
 *The application startup process.*
 
-![Login](screenshots/Login.jpg)
+![Login](screenshot/Login.jpg)
 *The login screen where users authenticate.*
 
-![Otp](screenshots/Otp.jpg)
+![Otp](screenshot/Otp.jpg)
 *Entering OTP for authentication.*
 
-![Verify](screenshots/Verify.jpg)
+![Verify](screenshot/Verify.jpg)
 *Verification process screen.*
 
-![Register](screenshots/Register.jpg)
+![Register](screenshot/Register.jpg)
 *Registration screen for new users.*
